@@ -1,0 +1,160 @@
+body {
+    margin:0;
+    padding:0;
+    color: #505050;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid #000000;
+    padding: 8px;
+}
+
+.share-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+}
+
+.share-title {
+    margin-left: 8px;
+    color:#000000;
+}
+
+.share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #000000;
+    fill: #ffffff;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.img-container-bg {
+    width: 100%;
+    max-width: 800px;
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #000000;
+}
+
+.profile-photo {
+    width: 224px;
+    height: 224px;
+    border-radius: 112px;
+    border: 2px solid #000000;
+    overflow: hidden;
+    margin-top: 24px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    margin-bottom: 24px;
+}
+
+.tile {
+    width: 96%;
+    height: 64px;
+    border-radius: 16px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tile:hover {
+    transform: scale(1.02);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 150ms;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    fill: #ffffff;
+}
+
+.tile-share {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 8px;
+    background-color: #000000;
+    margin-right: 8px;
+
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 4px 8px;
+}
+
+a {
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    font-size: 0.8rem;
+}
+.img-container-bg p {
+    padding: 0px 8px;
+}
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+   
+}
+
+footer {
+    width: 100%;
+    padding: 16px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: #ff0000;
+    text-decoration: underline;
+}
